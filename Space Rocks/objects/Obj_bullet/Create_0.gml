@@ -7,4 +7,4 @@
 /// @DnDArgument : "var" "speed"
 /// @DnDArgument : "var_1" "direction"
 speed = 10;
-direction = obj_player.image_angle;
+direction = Obj_player.image_angle;

@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"Obj_map_boarder",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"Obj_map_boarder",
   "overriddenProperties":[],
@@ -30,10 +28,10 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"Sprite8_1",
-    "path":"sprites/Sprite8_1/Sprite8_1.yy",
+    "name":"Sprite10",
+    "path":"sprites/Sprite10/Sprite10.yy",
   },
   "spriteMaskId":null,
   "visible":true,

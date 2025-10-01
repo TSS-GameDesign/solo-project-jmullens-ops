@@ -1,14 +1,3 @@
-if (keyboard_check(vk_up))
-{
-    motion_add(image_angle, 0.1);
-}
-
-if (keyboard_check(vk_left))
-{
-    image_angle -= 4;
-}
-
-if (keyboard_check(vk_right))
-{
-    image_angle += 4;
-}
+var _xinput = keyboard_check(vk_right) - keyboard_check(vk_left);
+var _yinput = keyboard_check(vk_down) - keyboard_check(vk_up);
+move_and_collide(_xinput * my_speed, _yinput * my_speed, Obj_map_boarder);

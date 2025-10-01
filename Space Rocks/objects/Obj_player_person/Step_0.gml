@@ -1,6 +1,6 @@
-if (keyboard_check(vk_anykey))
+if (keyboard_check(vk_up))
 {
-    motion_add(image_angle, 0.7);
+    motion_add(image_angle, 0.1);
 }
 
 if (keyboard_check(vk_left))

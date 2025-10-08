@@ -1,1 +1,1 @@
-is_open = false;
+collision_enabled = true;

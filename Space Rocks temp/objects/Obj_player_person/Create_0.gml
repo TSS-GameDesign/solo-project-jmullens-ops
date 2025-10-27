@@ -1,2 +1,2 @@
-my_speed = 4;
+my_speed = 7;
 

@@ -1,7 +1,7 @@
 
 // Check if the player is close enough
 if (instance_exists(Obj_player_person)) {
-    if (distance_to_object(Obj_player_person) < 32) {
+    if (distance_to_object(Obj_player_person) < 50) {
         can_open = true;
         // Optional: show a message like "Press E to open"
     } else {
@@ -9,15 +9,15 @@ if (instance_exists(Obj_player_person)) {
     }
 }
 
-// Check for input
+
 if (can_open && keyboard_check_pressed(ord("E"))) {
-    is_open = !is_open; // toggle door state
+    is_open = !is_open;
     if (is_open) {
-        solid = false;  // disable collision
-        visible = false; // make it look "open" (optional)
+        solid = false; 
+        visible = false; 
     } else {
-        solid = true;   // re-enable collision
-        visible = true; // make it look "closed"
+        solid = true;   
+        visible = true; 
     }
 }
 

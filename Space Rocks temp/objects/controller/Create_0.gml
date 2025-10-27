@@ -1,0 +1,1 @@
+controlled = Obj_player_person

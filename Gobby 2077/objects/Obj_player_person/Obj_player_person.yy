@@ -31,7 +31,7 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"walking",
     "path":"sprites/walking/walking.yy",
